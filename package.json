@@ -43,8 +43,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "lint": "eslint . --ext .js,.jsx,.ts,.tsx --quiet",
-        "lint-fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+        "lint": "eslint '*/**/*.{js,ts,tsx}'",
+        "lintFix": "eslint '*/**/*.{js,ts,tsx}' --fix"
     },
     "eslintConfig": {
         "extends": [
